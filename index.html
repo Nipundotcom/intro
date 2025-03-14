@@ -13,8 +13,8 @@
 
 <body>
     <!-- Navbar Starts -->
-    <header style="position: fixed; width: 100%; top: 0; background-color: black; z-index: 100;">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header id="headers">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-6" aria-label="Global">
             <div class="flex flex-1">
                 <a href="#" class="text-xl font-semibold text-white hover:underline">NB</a>
             </div>
@@ -40,7 +40,7 @@
                 <span class="relative">Nipun Bassi</span>
             </span>
         </h1>
-        <p class="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">I create responsive websites and
+        <p class="mx-auto mt-12 max-w-xl text-lg text-white leading-7">I create responsive websites and
             user-friendly mobile apps designed to meet your needs and exceed expectations. Let’s work together to bring
             your ideas to life and make your online presence stand out—reach out, and let’s get started!</p>
         <a href="#contact" class="text-sm font-semibold text-white bg-indigo-600 px-4 py-2 sm:mt-10 mt-8 rounded-md">
@@ -101,7 +101,7 @@
             </div>
             <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
 
-                <div class="rounded-md p-8 shadow">
+                <div id="cards" class="rounded-md p-8 shadow">
                     <div class="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-600" width="24" height="24"
                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -129,7 +129,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="rounded-md p-8 shadow">
+                <div id="cards" class="rounded-md p-8 shadow">
                     <div class="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-600" width="24" height="24"
                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -153,7 +153,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="rounded-md p-8 shadow">
+                <div id="cards" class="rounded-md p-8 shadow">
                     <div class="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-slate-600" width="24" height="24"
                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -326,22 +326,7 @@
         </div>
     </div>
     <!-- Project Section Ends -->
-    <!-- Footer Section Starts -->
-    <footer class="text-white py-4 px-3 mt-16">
-        <div class="container mx-auto flex flex-wrap items-center justify-between">
-            <div class="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
-                <p class="text-xs text-gray-400 md:text-sm">Copyright 2020 &copy; All Rights Reserved</p>
-            </div>
-            <div class="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
-                <ul class="list-reset flex justify-center flex-wrap text-xs md:text-sm gap-3">
-                    <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
-                    <li class="mx-4"><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white">Terms of Use</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section Ends -->
+
 </body>
 
 </html>

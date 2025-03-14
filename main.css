@@ -10,3 +10,17 @@ svg.icon {
     background: none;
     color: white;
 }
+
+#cards:hover{
+    cursor: pointer;
+    box-shadow: rgb(255, 255, 255, 0.1) 0px 5px 15px;
+}
+
+#headers{
+    cursor: pointer;
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    background-color: black; 
+    z-index: 100;
+}
